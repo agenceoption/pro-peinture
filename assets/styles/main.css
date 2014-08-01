@@ -1,0 +1,22 @@
+html body {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    background-color: #181a1e;
+}
+
+.crossfit-light-grey {
+    color: #696969;
+}
+
+.crossfit-grey {
+    color: #c5c5c5;
+}
+
+.crossfit-phone {
+    font-size: 1.7em;
+}
+
+.crossfit-logo {
+    max-width: 100%;
+    height: auto;
+}
