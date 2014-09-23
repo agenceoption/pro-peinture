@@ -2269,8 +2269,14 @@ aside a
 }
 
 #business-line {
-    height: 500px;
+    height: 650px;
     color: white;
+    background: #19274c;
+}
+
+#business-line img {
+    width: auto;
+    height: auto;
 }
 
 #business-line h4 {
@@ -2279,4 +2285,9 @@ aside a
 
 #business-line .image-content{
     margin-top: 75px;
+}
+
+#advantage {
+    margin-top: 75px;
+    text-align: center;
 }

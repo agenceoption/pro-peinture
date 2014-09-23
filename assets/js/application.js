@@ -130,8 +130,8 @@
 
         // parallax business line
         $( window ).scroll( function() {
-            var scroll = $(window).scrollTop() - $("#business-line img").offset().top, slowScroll = scroll / 2;
-            $( "#business-line img" ).css({ transform: "translateY(" + slowScroll + "px)" });
+            var scroll = $(window).scrollTop() - $("#business-line-parallax-image").offset().top, slowScroll = scroll / 2;
+            $( "#business-line-parallax-image" ).css({ transform: "translateY(" + slowScroll + "px)" });
         });
     }
     
