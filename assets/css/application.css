@@ -2270,6 +2270,11 @@ aside a
 
 #business-line {
     height: 500px;
+    color: white;
+}
+
+#business-line h4 {
+    color: white;
 }
 
 #business-line .image-content{
