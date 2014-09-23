@@ -32,7 +32,7 @@
     if ( isMobile.any() )
 	{
 	    $('#primary').css({
-	        background : '#323a45',
+	        background : '#19274c',
             padding    : '15px 0'
         });
 	}
@@ -70,7 +70,7 @@
             {
 
                 nav.css({
-                    background : '#323a45',
+                    background : '#19274c',
                     padding    : '16px 0',
                     left       : nav.offset().left,
                     width      : nav.width()
@@ -99,7 +99,7 @@
                 else
                 {
                     nav.css({
-                        background : '#323a45',
+                        background : '#19274c',
                         padding    : '30px 0',
                         left       : nav.offset().left,
                         width      : nav.width()

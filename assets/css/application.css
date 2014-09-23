@@ -529,7 +529,7 @@ a.open
     float: right;
     width: 40px;
     height: 30px;
-    background: #222222 url("../img/menu.png") center center no-repeat;
+    background: transparent url("../img/menu.png") center center no-repeat;
     border-radius: 2px;
     text-indent: -9999px;
     position: absolute;
@@ -553,7 +553,7 @@ a:hover.open
     z-index: 9999;
     width: 250px;
     padding: 0;
-    background: #222222;
+    background: #19274c;
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -574,7 +574,7 @@ a:hover.open
     font-size: 11px;
     text-transform: uppercase;
     padding: 10px 0 10px 30px;
-    border-bottom: 1px solid #252525;
+    /*border-bottom: 1px solid #19274c;*/
 }
 
 #pageslide ul li ul
