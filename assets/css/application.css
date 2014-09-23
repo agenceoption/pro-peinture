@@ -2308,6 +2308,20 @@ aside a
     font-weight: lighter;
 }
 
-#footer {
-    text-align: center;
+#contact {
+    padding-left: 20%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#contact p {
+    line-height: 1.8em;
+}
+
+#contact p a{
+    padding-left: 10px;
+}
+
+#contact p i:before{
+    color: #64bc46;
 }

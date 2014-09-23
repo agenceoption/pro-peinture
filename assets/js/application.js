@@ -133,6 +133,12 @@
             var scroll = $(window).scrollTop() - $("#business-line-parallax-image").offset().top, slowScroll = scroll / 2;
             $( "#business-line-parallax-image" ).css({ transform: "translateY(" + slowScroll + "px)" });
         });
+
+        // parallax philosophy
+        $( window ).scroll( function() {
+            var scroll = $(window).scrollTop() - $("#philosophy-parallax-image").offset().top, slowScroll = scroll / 2;
+            $( "#philosophy-parallax-image" ).css({ transform: "translateY(" + slowScroll + "px)" });
+        });
     }
     
     // modify styles if slider, video or image header active
