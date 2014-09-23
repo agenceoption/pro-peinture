@@ -138,8 +138,8 @@
 
         $( "#folio" ).css({
             paddingTop    : '75px',
-            marginTop     : '75px',
-            marginBottom  : '-50px',
+//            marginTop     : '75px',
+//            marginBottom  : '-50px',
             borderTop     : '1px solid #f3f3f3' 
         });
         
