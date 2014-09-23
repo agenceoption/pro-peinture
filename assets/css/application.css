@@ -2269,7 +2269,7 @@ aside a
 }
 
 #business-line {
-    height: 650px;
+    height: 700px;
     color: white;
     background: #19274c;
 }
@@ -2289,5 +2289,25 @@ aside a
 
 #advantage {
     margin-top: 75px;
+    text-align: center;
+}
+
+#philosophy {
+    height: 450px;
+    color: white;
+    background: #97c786;
+}
+
+#philosophy .image-content{
+     margin-top: 150px;
+}
+
+#philosophy .boxed p{
+    padding: 0 150px;
+    line-height: 2em;
+    font-weight: lighter;
+}
+
+#footer {
     text-align: center;
 }
