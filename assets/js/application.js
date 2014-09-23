@@ -127,6 +127,12 @@
     		var scroll = $(window).scrollTop(), slowScroll = scroll / 2;
     		$( ".swiper-slide, #video-header video, #image-header img" ).css({ transform: "translateY(" + slowScroll + "px)" });
     	});
+
+        // parallax business line
+        $( window ).scroll( function() {
+            var scroll = $(window).scrollTop() - $("#business-line img").offset().top, slowScroll = scroll / 2;
+            $( "#business-line img" ).css({ transform: "translateY(" + slowScroll + "px)" });
+        });
     }
     
     // modify styles if slider, video or image header active
