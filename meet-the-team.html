@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
 <head>  
-    <title>AvantGarde</title>  
+    <title>AvantGarde | Meet The Team</title>  
     
     <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1"> 
@@ -13,7 +13,7 @@
     
     <script type='text/javascript' src='assets/js/jquery.js'></script>
 </head>
-<body id="index" class="home page"> 
+<body id="index" class="team page"> 
     
     <!-- preloader -->
     <div id="preloader">
@@ -55,8 +55,8 @@
                 <!-- menu links -->
                 <div class="nav">
                     <ul id="menu-primary" class="menu">
-                        <li class="current_page_item"><a href="http://demo.lovethem.es/avantgarde_html/">Home</a></li>
-                        <li class="menu-item-has-children">
+                        <li><a href="http://demo.lovethem.es/avantgarde_html/">Home</a></li>
+                        <li class="current_page_item menu-item-has-children">
                             <a href="#">About</a>
                             <ul class="sub-menu"> 
                                 <li><a href="http://demo.lovethem.es/avantgarde_html/meet-the-team.html">Our Team</a></li> 
@@ -83,146 +83,24 @@
     <!-- content -->
     <div id="content"> 
             
-        <!-- slider - inline css to cancel content padding -->
+        <!-- team - inline css to cancel content padding -->
         <style type="text/css">#primary{background:rgba(255,255,255,0.05);}#content{padding-top:0!important;}</style> 
-        <div id="swiper" class="swiper-container"> 
-        
-            <!-- slide wrapper -->
-            <div class="swiper-wrapper"> 
-                
-                <!-- slide 1 -->
-                <div class="swiper-slide"> 
-                    <div class="slide-image">
-                        <img src="http://placehold.it/1920x1200" alt="Build a grrreat site!"/>
-                    </div> 
-                    <div class="slide-content">
-                        <div class="boxed">
-                            <h1>Build a grrreat site!</h1><p>Unlimited sliders, video headers, microformats, rich snippets, responsive design and more. AvantGarde gives you the tools to create a beautiful, engaging web presence.</p><a href="http://themeforest.net/item/avantgarde-responsive-wordpress-theme/8769291/?ref=LoveThemes" class="button large" target="_blank" title="Purchase Now">Purchase Now</a>
-                        </div>
-                    </div> 
-                </div> 
-                <!-- /slide 1 -->
-                
-                <!-- slide 2 -->
-                <div class="swiper-slide"> 
-                    <div class="slide-image">
-                        <img src="http://placehold.it/1920x1200" alt="The long road."/>
-                    </div> 
-                    <div class="slide-content">
-                        <div class="boxed">
-                            <h1>The long road.</h1><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt.</p>
-                        </div>
-                    </div> 
-                </div> 
-                <!-- /slide 2 -->
-                
-                <!-- slide 3 -->
-                <div class="swiper-slide"> 
-                    <div class="slide-image">
-                        <img src="http://placehold.it/1920x1200" alt="Take it to the top."/>
-                    </div> 
-                    <div class="slide-content">
-                        <div class="boxed">
-                            <h1>Take it to the top.</h1><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt.</p>
-                        </div>
-                    </div> 
-                </div> 
-                <!-- /slide 3 -->
-                
+        <div id="image-header"> 
+            <img src="http://placehold.it/1920x1200" alt="AvantGarde Header"/> 
+            <div class="image-content">
+                <div class="boxed">
+                    <h1>Meet the Team</h1>
+                </div>
             </div> 
-            <!-- slider wrapper -->
-            
-            <!-- more arrow -->
-            <div class="scroll-more"> 
-                <img src="assets/img/arrow-down.png" alt="Scroll Down"/> 
-            </div> 
-            <!-- /more arrow -->
-            
-            <!-- navigation arrows -->
-            <a class="arrow-left" href="#"></a> 
-            <a class="arrow-right" href="#"></a> 
-            <!-- /navigation arrows -->
-            
-            <script defer src="assets/js/slider.js"></script> <script type="text/javascript">
-                jQuery(document).ready(function($) {
-                    var ltSwiper = $('.swiper-container').swiper({
-                	    mode                         : 'horizontal',
-                	    autoplay                     : 7500,
-                	    speed                        : 1000,
-                        loop                         : true,
-                        autoplayDisableOnInteraction : true,
-                        autoResize                   : true,
-                        keyboardControl              : true,
-                        centeredSlides               : true,
-                        calculateHeight              : true,
-                        DOMAnimation                 : true,
-                        
-                        onSlideChangeStart: function(ltSwiper){
-                            $('.slide-content').addClass('animated bounceIn');
-                        },
-                        onSlideChangeEnd: function(ltSwiper){
-                            setTimeout(function () {
-                                $('.slide-content').removeClass('animated bounceIn');
-                            }, 800);
-                        }
-                    });
-                    
-                    $('.arrow-left').click(function(e){
-                        ltSwiper.swipePrev();
-                    });
-                    
-                    $('.arrow-right').click(function(e){
-                        ltSwiper.swipeNext();
-                    });
-                });
-            </script> 
+        </div> 
         
-        </div>
-        <!-- /slider -->
+        <div class="boxed"> 
+            <h2>We&#8217;re a small team of creative professionals.</h2>
+            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit.</p>
+            <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere.</p> 
+        </div> 
         
-        <!-- box content for alignment -->    
-        <div class="boxed">
-        
-            <h6 class="small-title" data-scroll-reveal>Overview</h6>
-            
-            <div class="one_full textcenter" data-scroll-reveal>
-                <h2>AvantGarde lets you build <span class="typed" data-typer-targets="awesome, amazing, fantastic"></span> websites quickly and easily.</h2>
-            </div>
-            
-            <hr/>
-            
-            <div class="one_quarter" data-scroll-reveal>
-                <h4><i class="icon-move"></i> Unlimited Sliders.</h4>
-                <p>Add a slider header to <b>any</b> page, with <b>unlimited</b> images, all with our easy to use classes.</p>
-                <p>Our slider also uses categories, this allows you to add your images once, but use them everywhere.</p><p>Does it get any easier than this?</p>
-            </div>
-            
-            <div class="one_quarter" data-scroll-reveal>
-                <h4><i class="icon-video"></i> Video Headers.</h4>
-                <p>Sometimes images are not enough. Sometimes a video is needed.</p><p>No problem. Add a video header to <b>any</b> page with our easy-to-use video class</a>.</p>
-                <p>Pretty <span class="typed" data-typer-targets="nifty, cool, sweet, nice"></span> huh?</p>
-            </div>
-            
-            <div class="one_quarter" data-scroll-reveal>
-                <h4><i class="icon-star"></i> Built For You.</h4>
-                <p>AvantGarde is crazy simple to use and is built around our own CSS framework <a href="http://workless.ikreativ.com">Workless</a>.</p>
-                <p>Icons, alerts, CSS animations, tables, forms and more, Workless will help you to get up and running as fast as possible!</p>
-            </div>
-            
-            <div class="one_quarter" data-scroll-reveal>
-                <h4><i class="icon-graph"></i> SEO Ready.</h4>
-                <p>CSS minification, HTML compression, microformats, rich snippets and more.</p>
-                <p>AvantGarde is built from the ground up with speed, ease-of-use and search engines in mind.</p>
-                <p>Themes shipped the <b>right</b> way.</p>
-            </div> 
-        
-        </div>
-        <!-- /boxed content class -->
-        
-        <!-- team -->
-        <div id="team">
-            <h6 id="team-title" class="small-title" data-scroll-reveal>Our Team</h6> 
-            
+        <div id="team"> 
             <div class="boxed"> 
                 <ul class="nolist textcenter aligncenter">
                     <li class="one_third" data-scroll-reveal>
@@ -249,104 +127,34 @@
                             <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu.</p>
                         </div>
                     </li>
+                    <li class="one_third" data-scroll-reveal>
+                        <img src="http://placehold.it/350x300" alt="Dan Smith."/>
+                        <div class="member-title">Dan Smith.</div>
+                        <div class="member-content">
+                            <p class="role">Lead Designer</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+                        </div>
+                    </li>
+                    <li class="one_third" data-scroll-reveal>
+                        <img src="http://placehold.it/350x300" alt="Krista Gold."/>
+                        <div class="member-title">Krista Gold.</div>
+                        <div class="member-content">
+                            <p class="role">Designer / Typographer</p>
+                            <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed.</p>
+                        </div>
+                    </li>
+                    <li class="one_third" data-scroll-reveal>
+                        <img src="http://placehold.it/350x300" alt="Jeb Walker."/>
+                        <div class="member-title">Jeb Walker.</div>
+                        <div class="member-content">
+                            <p class="role">Designer / Illustrator</p>
+                            <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu.</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            
         </div>
         <!-- /team -->
-        
-        <!-- portfolio -->
-        <div id="filters"> 
-            <nav id="filter"> 
-                <ul class="nolist"> 
-                    <li><a href="#all">All</a></li> 
-                    <li><a href="#cityscape" class="cityscape">Cityscape</a></li>
-                    <li><a href="#nature" class="nature">Nature</a></li>
-                    <li><a href="#photography" class="photography">Photography</a></li>
-                    <li><a href="#print" class="print">Print</a></li>
-                    <li><a href="#product" class="product">Product</a></li>
-                    <li><a href="#scenery" class="scenery">Scenery</a></li>
-                    <li><a href="#skyline" class="skyline">Skyline</a></li>
-                    <li><a href="#typography" class="typography">Typography</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div id="folio">
-            <h6 id="folio-title" class="small-title" data-scroll-reveal>Featured Work</h6>
-            
-            <ul class="nolist">
-                <li class="filter_item product all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="Le Camera"/>
-                            <figcaption><h6 class="small-title">Le Camera</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                
-                <li class="filter_item skyline all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="Cable Guy"/>
-                            <figcaption><h6 class="small-title">Cable Guy</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                
-                <li class="filter_item photography all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="Le Cameras"/>
-                            <figcaption><h6 class="small-title">Le Cameras</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                
-                <li class="filter_item nature / photography all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="Big Bear"/>
-                            <figcaption><h6 class="small-title">Big Bear</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                
-                <li class="filter_item print / typography all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="Le Typography"/>
-                            <figcaption><h6 class="small-title">Le Typography</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                
-                <li class="filter_item product all" data-scroll-reveal>
-                    <a href="single-portfolio.html">
-                        <figure>
-                            <img src="http://placehold.it/650x525" alt="The Parts"/>
-                            <figcaption><h6 class="small-title">The Parts</h6></figcaption>
-                        </figure>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- /portfolio -->
-        
-        <!-- testimonials -->
-        <div id="testimonials" class="hreview textcenter" style="background:url(http://placehold.it/1920x300);">
-            <ul class="nolist" data-scroll-reveal>
-                <h2 class="item hidden"><span class="fn">WordPress Theme</span></h2>
-                
-                <li class="testimonial review">
-                    <div class="boxed">
-                        <h2 class="summary">"This is one of the best themes I've ever used. No bloat, fast, SEO ready and most of all, easy-to-use, great job guys!"</h2><span class="dtreviewed hidden">August 25, 2014 <span title="25-08-2014 12:17:00"></span></span>
-                        <h6 class="reviewer">Lee Smith</h6>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!-- /testimonials -->
         
     </div>   
     <!-- /content -->

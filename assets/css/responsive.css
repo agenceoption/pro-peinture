@@ -1,0 +1,863 @@
+/**
+ * Mobile
+ */
+.swiper-container,
+a.arrow-left,
+a.arrow-right,
+#video-header,
+#image-header,
+#folio ul li figcaption,
+#filters,
+.woocommerce-ordering select
+{
+    display: none;   
+}
+
+#primary ul
+{
+    display: none;
+}
+
+#primary .open
+{
+    display: inherit;
+    right: 70px;
+    top: 23px;
+}
+
+#primary #searchform
+{
+    right: 50px;
+    width: 85%;
+}
+
+#content
+{
+    padding: 175px 0 75px 0;
+}
+
+#folio ul li
+{
+    width: 100%;
+}
+
+#team ul li
+{
+    width: 100%;
+}
+
+.woocommerce .products li
+{
+    width: 100%;
+}
+
+.woocommerce .images,
+.woocommerce .summary
+{
+    width: 100%;
+}
+
+.format-video iframe
+{
+    height: 300px;
+}
+
+.jp-progress
+{
+    width: 80%;
+}
+
+#gmap
+{
+    height: 300px;
+    margin-top: 70px;
+}
+
+.map-overlay
+{
+    height: 300px;
+    top: 300px;
+    margin-top: -300px;
+}
+    
+.boxed
+{
+    width: 280px;
+}
+
+.one_full,
+.one_half,
+.one_third,
+.two_third,
+.one_quarter,
+.one_fifth
+{
+    width: 100%;
+}
+
+@media only screen and (max-width: 321px) { 
+    .woocommerce .checkout-button
+    {
+        float: left;
+    }
+    
+    table, 
+    thead, 
+    tbody, 
+    th, 
+    td, 
+    tr 
+    { 
+        display: block; 
+    }
+    
+    table.cart thead
+    {
+        display: none;
+    }
+    
+    #content
+    {
+        padding: 125px 0 75px 0!important;
+    }
+    
+    body.hasHeader #content
+    {
+        padding: 150px 0 75px 0!important;
+    }
+}
+/**
+ * Tablets
+ */
+@media only screen and (min-width: 767px) {    
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background: #252525;
+    }
+
+    .swiper-container
+    {
+        height: 475px;    
+        display: inherit;
+    }
+
+    .slide-content
+    {
+        bottom: 50%;
+    }
+    
+    a.arrow-left,
+    a.arrow-right
+    {
+        display: none;
+    }
+    
+    .swiper-slide h1,
+    .video-content h1,
+    .image-content h1
+    {
+        font-size: 48px;
+    }
+    
+    .swiper-slide p,
+    .video-content p
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    #video-header
+    {
+        height: 425px;
+        display: inherit;
+    }
+    
+    .video-content
+    {
+        margin-top: 20%;
+    }
+    
+    #image-header
+    {
+        display: inherit;
+    }
+    
+    .image-content
+    {
+        margin-top: 25%;
+    }
+
+    #primary ul
+    {
+        display: none;
+    }
+
+    #primary .open
+    {
+        display: inherit;
+        right: 80px;
+        top: 23px;
+    }
+    
+    #folio ul
+    {
+        margin-top: 70px;
+    }
+    
+    #folio ul li
+    {
+        width: 33.33333%;
+    }
+    
+    #folio ul li figcaption
+    {
+        display: none;
+    }
+    
+    #filters
+    {
+        display: inherit;
+    }
+    
+    #team ul li
+    {
+        width: 32%;
+    }
+    
+    .woocommerce-ordering select
+    {
+        display: inherit;
+    }
+    
+    .woocommerce .products li
+    {
+        width: 50%;
+    }
+    
+    .woocommerce .images,
+    .woocommerce .summary
+    {
+        width: 47%;
+    }
+
+    .format-video iframe
+    {
+        height: 450px;
+    }
+    
+    .jp-progress
+    {
+        width: 92%;
+    }
+    
+    #gmap
+    {
+        height: 450px;
+    }
+    
+    .map-overlay
+    {
+        height: 450px;
+        top: 450px;
+        margin-top: -450px;
+    }
+    
+    .boxed
+    {
+        width: 700px;
+    }
+    
+    .one_full,
+    .one_half,
+    .one_third,
+    .two_third,
+    .one_quarter,
+    .one_fifth
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/**
+ * Tablets Landscape
+ */
+@media only screen and (min-width: 1023px) {    
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background: #252525;
+    }
+
+    .swiper-container
+    {
+        height: 600px;    
+        display: inherit;
+    }
+
+    .slide-content
+    {
+        bottom: 50%;
+    }
+    
+    a.arrow-left,
+    a.arrow-right
+    {
+        display: none;
+    }
+    
+    .swiper-slide h1,
+    .video-content h1,
+    .image-content h1
+    {
+        font-size: 52px;
+    }
+    
+    .swiper-slide p,
+    .video-content p
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    #video-header
+    {
+        height: 575px;
+        display: inherit;
+    }
+    
+    .video-content
+    {
+        margin-top: 20%;
+    }
+    
+    #image-header
+    {
+        display: inherit;
+    }
+    
+    .image-content
+    {
+        margin-top: 25%;
+    }
+
+    #primary ul
+    {
+        display: none;
+    }
+
+    #primary .open
+    {
+        display: inherit;
+    }
+    
+    #folio ul
+    {
+        margin-top: 70px;
+    }
+    
+    #folio ul li
+    {
+        width: 33.33333%;
+    }
+    
+    #folio ul li figcaption
+    {
+        top: 35%;
+        left: 0;
+        width: 100%;
+        display: inherit;
+    }
+    
+    #folio ul li figcaption h6
+    {
+        margin-top: 45px;
+    }
+    
+    #folio ul li figcaption::before,
+    #folio ul li figcaption::after 
+    {
+    	top: 40%;
+    	left: 50%;
+    	width: 90%;
+    }
+    
+    #filters
+    {
+        display: inherit;
+    }
+    
+    #team ul li
+    {
+        width: 32%;
+    }
+    
+    .woocommerce-ordering select
+    {
+        display: inherit;
+    }
+    
+    .woocommerce .products li
+    {
+        width: 25%;
+    }
+    
+    .woocommerce .images,
+    .woocommerce .summary
+    {
+        width: 48%;
+    }
+
+    .format-video iframe
+    {
+        height: 450px;
+    }
+    
+    .jp-progress
+    {
+        width: 92%;
+    }
+    
+    #gmap
+    {
+        height: 450px;
+    }
+    
+    .map-overlay
+    {
+        height: 450px;
+        top: 450px;
+        margin-top: -450px;
+    }
+    
+    .boxed
+    {
+        width: 974px;
+    }
+    
+    .one_full,
+    .one_half,
+    .one_third,
+    .two_third,
+    .one_quarter,
+    .one_fifth
+    {
+        margin-left: 0;
+    }
+    
+    .one_full
+    {
+        width: 100%;
+    }
+    
+    .one_half
+    {
+        width: 50%;
+    }
+    
+    .one_third
+    {
+        width: 33.33333%;
+    }
+    
+    .two_third
+    {
+        width: 66.66666%;
+    }
+    
+    .one_quarter
+    {
+        width: 25%;
+    }
+    
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+/**
+ * Small Desktops
+ */
+@media only screen and (min-width: 1279px) {
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background: #252525;
+    }
+    
+    .swiper-container
+    {
+        height: 800px;    
+        display: inherit;
+    }
+
+    .slide-content
+    {
+        bottom: 45%;
+    }
+    
+    a.arrow-left,
+    a.arrow-right
+    {
+        bottom: 45%;
+        display: inherit;
+    }
+    
+    .swiper-slide h1,
+    .video-content h1,
+    .image-content h1
+    {
+        font-size: 52px;
+    }
+    
+    .swiper-slide p,
+    .video-content p
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    #video-header
+    {
+        height: 1000px;
+        display: inherit;
+    }
+    
+    .video-content
+    {
+        margin-top: 23%;
+    }
+    
+    #image-header
+    {
+        display: inherit;
+    }
+    
+    .image-content
+    {
+        margin-top: 25%;
+    }
+
+    #primary ul
+    {
+        display: inherit;
+    }
+
+    #primary .open
+    {
+        display: none;
+    }
+    
+    #folio ul
+    {
+        margin-top: 100px;
+    }
+
+    #folio ul li
+    {
+        width: 33.33333%;
+    }
+
+    #folio ul li figcaption
+    {
+        top: 33%;
+        left: 0;
+        width: 100%;
+        display: inherit;
+    }
+
+    #folio ul li figcaption h6
+    {
+        margin-top: 45px;
+    }
+
+    #folio ul li figcaption::before,
+    #folio ul li figcaption::after
+    {
+    	top: 40%;
+    	left: 50%;
+    	width: 90%;
+    }
+    
+    #filters
+    {
+        display: inherit;
+    }
+
+    #team ul li
+    {
+        width: 32%;
+    }
+    
+    .woocommerce-ordering select
+    {
+        display: inherit;
+    }
+    
+    .woocommerce .products li
+    {
+        width: 25%;
+    }
+    
+    .woocommerce .images,
+    .woocommerce .summary
+    {
+        width: 48%;
+    }
+
+    .format-video iframe
+    {
+        height: 500px;
+    }
+
+    .jp-progress
+    {
+        width: 92%;
+    }
+
+    #gmap
+    {
+        height: 600px;
+    }
+
+    .map-overlay
+    {
+        height: 600px;
+        top: 600px;
+        margin-top: -600px;
+    }
+
+    .boxed
+    {
+        width: 1200px;
+    }
+
+    .one_full
+    {
+        width: 100%;
+    }
+
+    .one_half
+    {
+        width: 50%;
+    }
+
+    .one_third
+    {
+        width: 33.33333%;
+    }
+
+    .two_third
+    {
+        width: 66.66666%;
+    }
+
+    .one_quarter
+    {
+        width: 25%;
+    }
+
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+/**
+ * Large Desktops
+ */
+@media only screen and (min-width: 1599px) {
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+        background: #252525;
+    }
+    
+    .swiper-container
+    {
+        height: 1000px;   
+        display: inherit; 
+    }
+    
+    .slide-content
+    {
+        bottom: 50%;
+    }
+    
+    a.arrow-left,
+    a.arrow-right
+    {
+        bottom: 50%;
+        display: inherit;
+    }
+    
+    .swiper-slide h1,
+    .video-content h1
+    {
+        font-size: 56px;
+    }
+    
+    .swiper-slide p,
+    .video-content p
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    #video-header
+    {
+        height: 1000px;
+        display: inherit;
+    }
+    
+    .video-content
+    {
+        bottom: 40%;
+    }
+    
+    #image-header
+    {
+        display: inherit;
+    }
+    
+    .image-content
+    {
+        margin-top: 25%;
+    }
+
+    #primary ul
+    {
+        display: inherit;
+    }
+
+    #primary .open
+    {
+        display: none;
+    }
+    
+    #folio ul
+    {
+        margin-top: 100px;
+    }
+    
+    #folio ul li
+    {
+        width: 33.33333%;
+    }
+
+    #folio ul li figcaption
+    {
+        top: 38%;
+        left: 0;
+        width: 100%;
+        display: inherit;
+    }
+
+    #folio ul li figcaption h6
+    {
+        margin-top: 45px;
+    }
+
+    #folio ul li figcaption::before,
+    #folio ul li figcaption::after
+    {
+    	top: 40%;
+    	left: 50%;
+    	width: 90%;
+    }
+    
+    #filters
+    {
+        display: inherit;
+    }
+
+    #team ul li
+    {
+        width: 32%;
+    }
+    
+    .woocommerce-ordering select
+    {
+        display: inherit;
+    }
+    
+    .woocommerce .products li
+    {
+        width: 25%;
+    }
+    
+    .woocommerce .images,
+    .woocommerce .summary
+    {
+        width: 48%;
+    }
+
+    .format-video iframe
+    {
+        height: 600px;
+    }
+
+    .jp-progress
+    {
+        width: 95%;
+    }
+
+    #gmap
+    {
+        height: 600px;
+    }
+
+    .map-overlay
+    {
+        height: 600px;
+        top: 600px;
+        margin-top: -600px;
+    }
+
+    .boxed
+    {
+        width: 1200px;
+    }
+
+    .one_full
+    {
+        width: 100%;
+    }
+
+    .one_half
+    {
+        width: 50%;
+    }
+
+    .one_third
+    {
+        width: 33.33333%;
+    }
+
+    .two_third
+    {
+        width: 66.66666%;
+    }
+
+    .one_quarter
+    {
+        width: 25%;
+    }
+
+    .one_fifth
+    {
+        width: 20%;
+    }
+}
+/* Fix IE */
+@media screen and (min-width:0\0) {
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before
+    {
+        margin-top: -500px!important;
+    }
+    
+    #primary ul li ul
+    {
+        padding-top: 40px;
+    }
+}

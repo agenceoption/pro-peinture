@@ -1,0 +1,33 @@
+#content a, 
+#team .role, 
+#twitter a, 
+footer#footer a:hover, 
+ul.products li .price, 
+.typed, 
+.pricing .content li.price, 
+[class^="icon-"]:before, 
+[class*=" icon-"]:before 
+{ 
+    color: #60bfb1; 
+} 
+
+.post h2 a:hover 
+{ 
+    color: #60bfb1!important; 
+} 
+
+::-webkit-scrollbar-thumb, 
+#hello-bar, 
+.swiper-slide h1:after, 
+.video-content h1:after, 
+.image-content h1:after, 
+nav#filter ul li.current a, 
+aside .tagcloud a:hover, 
+ul#comments .reply a:hover, 
+.tagcloud a, 
+.pagination a:hover, 
+.progressbar > div, 
+.jp-play-bar 
+{ 
+    background: #60bfb1!important; 
+}
