@@ -29,7 +29,6 @@
             return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
         }
     };
-    console.log(navigator.userAgent);
     if ( isMobile.any() )
 	{
 	    $('#primary').css({
