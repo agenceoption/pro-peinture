@@ -71,7 +71,7 @@
 
                 nav.css({
                     background : '#19274c',
-                    padding    : '16px 0',
+                    padding    : '10px 0',
                     left       : nav.offset().left,
                     width      : nav.width()
                 });
@@ -139,6 +139,20 @@
             var scroll = $(window).scrollTop() - $("#philosophy-parallax-image").offset().top, slowScroll = scroll / 2;
             $( "#philosophy-parallax-image" ).css({ transform: "translateY(" + slowScroll + "px)" });
         });
+
+        // scroll to on nav click
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
     }
     
     // modify styles if slider, video or image header active
@@ -149,7 +163,7 @@
         $( "#filters" ).hide();
 
         $( "#folio" ).css({
-            paddingTop    : '75px',
+            paddingTop    : '65px',
 //            marginTop     : '75px',
 //            marginBottom  : '-50px',
             borderTop     : '1px solid #f3f3f3' 

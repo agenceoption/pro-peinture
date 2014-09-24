@@ -2268,8 +2268,16 @@ aside a
     padding: 25px 20px 15px 20px;
 }
 
+#content {
+    padding-bottom: 0 !important;
+}
+
+#image-header h1:after {
+    background-color: #ffffff!important;
+}
+
 #business-line {
-    height: 700px;
+    height: 780px;
     color: white;
     background: #19274c;
 }
@@ -2279,17 +2287,36 @@ aside a
     height: auto;
 }
 
-#business-line h4 {
+#business-line h4, #business-line h2, #business-line h3 {
     color: white;
+}
+#business-line h2:after {
+    background-color: white;
 }
 
 #business-line .image-content{
     margin-top: 75px;
 }
 
+#business-line .boxed img {
+    padding-bottom: 25px;
+}
+
+#business-line .boxed div{
+    padding: 35px 60px;
+}
+
 #advantage {
-    margin-top: 75px;
+    padding-top: 75px;
     text-align: center;
+}
+
+#advantage .boxed img {
+    padding-bottom: 25px;
+}
+
+#advantage .boxed div{
+    padding: 35px 60px;
 }
 
 #philosophy {
@@ -2324,4 +2351,18 @@ aside a
 
 #contact p i:before{
     color: #64bc46;
+}
+
+h2.small-title {
+    margin-bottom: 10px !important;
+}
+
+h3.small-title {
+    /*margin-top: -30px;*/
+    margin-bottom: 30px !important;
+    font-size: 14px;
+}
+
+h3.small-title:after {
+    content: none;
 }
