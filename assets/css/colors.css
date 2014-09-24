@@ -16,7 +16,7 @@ ul.products li .price,
     color: #60bfb1!important; 
 } 
 
-::-webkit-scrollbar-thumb, 
+/*::-webkit-scrollbar-thumb, */
 #hello-bar, 
 .swiper-slide h1:after, 
 .video-content h1:after, 

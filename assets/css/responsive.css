@@ -130,11 +130,11 @@ a.arrow-right,
  * Tablets
  */
 @media only screen and (min-width: 767px) {    
-    ::-webkit-scrollbar
-    {
-        width: 5px;
-        background: #252525;
-    }
+    /*::-webkit-scrollbar*/
+    /*{*/
+        /*width: 5px;*/
+        /*background: #252525;*/
+    /*}*/
 
     .swiper-container
     {
@@ -283,11 +283,11 @@ a.arrow-right,
  * Tablets Landscape
  */
 @media only screen and (min-width: 1023px) {    
-    ::-webkit-scrollbar
-    {
-        width: 5px;
-        background: #252525;
-    }
+    /*::-webkit-scrollbar*/
+    /*{*/
+        /*width: 5px;*/
+        /*background: #252525;*/
+    /*}*/
 
     .swiper-container
     {
@@ -479,11 +479,11 @@ a.arrow-right,
  * Small Desktops
  */
 @media only screen and (min-width: 1279px) {
-    ::-webkit-scrollbar
-    {
-        width: 5px;
-        background: #252525;
-    }
+    /*::-webkit-scrollbar*/
+    /*{*/
+        /*width: 5px;*/
+        /*background: #252525;*/
+    /*}*/
     
     .swiper-container
     {
@@ -666,11 +666,11 @@ a.arrow-right,
  * Large Desktops
  */
 @media only screen and (min-width: 1599px) {
-    ::-webkit-scrollbar
-    {
-        width: 5px;
-        background: #252525;
-    }
+    /*::-webkit-scrollbar*/
+    /*{*/
+        /*width: 5px;*/
+        /*background: #252525;*/
+    /*}*/
     
     .swiper-container
     {
