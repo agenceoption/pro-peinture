@@ -2319,6 +2319,10 @@ aside a
     padding: 35px 60px;
 }
 
+#advantage p strong {
+    color: #64bc46;
+}
+
 #philosophy {
     height: 450px;
     color: white;
