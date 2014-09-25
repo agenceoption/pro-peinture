@@ -2330,7 +2330,7 @@ aside a
 #philosophy {
     height: 450px;
     color: white;
-    background: #97c786;
+    background: black;
 }
 
 #philosophy .image-content{
@@ -2341,6 +2341,7 @@ aside a
     padding: 0 150px;
     line-height: 2em;
     font-weight: lighter;
+    text-shadow: 0 0 60px black;
 }
 
 #contact {
