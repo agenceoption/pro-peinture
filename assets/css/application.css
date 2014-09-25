@@ -686,7 +686,6 @@ a:hover.open
     background: #000000;
     width: 100%;
     text-align: center;
-    /*margin-bottom: 75px;*/
     overflow: hidden;
     position: relative;
     z-index: 50;
@@ -717,7 +716,7 @@ a:hover.open
 {
     color: #ffffff;
     margin-bottom: 20px;
-    text-shadow: 0 2px 0 rgba( 0, 0, 0, 0.2 );
+    text-shadow: 0 2px 0 rgba( 0, 0, 0, 0.2);
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -2297,13 +2296,23 @@ aside a
 
 #image-header .image-content .boxed{
     text-align: left;
-    margin-left: 300px;
+    padding-left: 300px;
+}
+
+#image-header p{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
 #business-line {
     height: 780px;
     color: white;
     background: #19274c;
+}
+
+#business-line p {
+    text-align: justify;
 }
 
 #business-line img {
@@ -2349,19 +2358,24 @@ aside a
 
 #philosophy {
     height: 450px;
-    color: white;
-    background: black;
+    color: white !important;
+    background: white;
 }
 
 #philosophy .image-content{
      margin-top: 150px;
 }
 
+#philosophy.image-header img{
+    opacity: 0.2;
+}
+
 #philosophy .boxed p{
+    font-size: 22px;
+    color: rgb(25, 39, 76);
     padding: 0 150px;
     line-height: 2em;
-    font-weight: lighter;
-    text-shadow: 0 0 60px black;
+    text-transform: uppercase;
 }
 
 #contact {
