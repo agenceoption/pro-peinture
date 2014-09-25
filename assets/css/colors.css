@@ -1,4 +1,3 @@
-#content a, 
 #team .role, 
 #twitter a, 
 footer#footer a:hover, 
@@ -30,4 +29,14 @@ ul#comments .reply a:hover,
 .jp-play-bar 
 { 
     background: #60bfb1!important; 
+}
+
+#contact a{
+    color: rgb(214, 214, 214);
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#contact a:hover{
+    color: white;
 }
