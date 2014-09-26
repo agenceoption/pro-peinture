@@ -2423,3 +2423,7 @@ h3.small-title:after {
 #social {
     padding-top: 70px;
 }
+
+.single-post p {
+    text-align: justify;
+}
