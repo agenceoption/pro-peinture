@@ -1664,10 +1664,8 @@ body.error404 #content
 
 .post img
 {
-	width: 100%;
 	height: auto;
 	margin-bottom: 25px;
-	float: left;
 }
 
 .format-audio .featured-image
@@ -2422,6 +2420,6 @@ h3.small-title:after {
     content: none;
 }
 
-#social ul {
+#social {
     padding-top: 70px;
 }
