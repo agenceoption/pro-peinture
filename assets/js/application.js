@@ -200,24 +200,24 @@
         $( this ).parent().addClass( 'current' );
 
         var filterVal = $( this ).text().toLowerCase().replace(' ', '-');
-
-        if ( filterVal == 'all' )
-        {
-            $( '#folio li' ).css( 'z-index', 999 ).fadeTo( duration, opacity );
-        }
-        else
-        {
-            $( '#folio li' ).each( function() {
-                if ( ! $( this ).hasClass( filterVal ) )
-                {
-                    $( this ).css( 'z-index', -1 ).fadeTo( duration, toOpacity );
-                }
-                else
-                {
-                    $( this ).css( 'z-index', 999 ).fadeTo( duration, opacity );
-                }
-            });
-        }
+//
+//        if ( filterVal == 'all' )
+//        {
+//            $( '#folio li' ).css( 'z-index', 999 ).fadeTo( duration, opacity );
+//        }
+//        else
+//        {
+//            $( '#folio li' ).each( function() {
+//                if ( ! $( this ).hasClass( filterVal ) )
+//                {
+//                    $( this ).css( 'z-index', -1 ).fadeTo( duration, toOpacity );
+//                }
+//                else
+//                {
+//                    $( this ).css( 'z-index', 999 ).fadeTo( duration, opacity );
+//                }
+//            });
+//        }
         return false;
     });
     
