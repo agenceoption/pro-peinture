@@ -87,7 +87,6 @@
 a.arrow-left,
 a.arrow-right,
 #video-header,
-/*#image-header,*/
 #folio ul li figcaption,
 #filters,
 .woocommerce-ordering select
@@ -201,16 +200,6 @@ a.arrow-right,
     table.cart thead
     {
         display: none;
-    }
-    
-    #content
-    {
-        /*padding: 125px 0 75px 0!important;*/
-    }
-    
-    body.hasHeader #content
-    {
-        /*padding: 150px 0 75px 0!important;*/
     }
 }
 /**
@@ -352,7 +341,6 @@ a.arrow-right,
     
     .boxed
     {
-        /*width: 700px;*/
         width: 500px;
     }
 
