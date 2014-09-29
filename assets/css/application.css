@@ -706,10 +706,6 @@ a:hover.open
 {
     width: 100%;
     height: auto;
-    filter: alpha(opacity=40);
-    -khtml-opacity: 0.4;
-    -moz-opacity: 0.4;
-    opacity: 0.4; 
 }
 
 .image-header .image-content
@@ -2350,6 +2346,12 @@ aside a
     padding: 35px 3%;
 }
 
+img#business-line-parallax-image {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
 #advantage {
     padding-top: 75px;
     text-align: center;
@@ -2382,7 +2384,7 @@ aside a
 }
 
 #philosophy.image-header img{
-    opacity: 0.2;
+    /*opacity: 0.2;*/
 }
 
 #philosophy .boxed p{
