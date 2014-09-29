@@ -1,11 +1,92 @@
 /**
  * Mobile
  */
+
+@media only screen and (max-width: 767px) {
+    #image-header {
+        height: 500px;
+    }
+
+    #philosophy-parallax-image {
+        width: auto;
+        height: 120%;
+    }
+
+    #philosophy .image-content {
+        margin: 60px 0;
+    }
+
+    #philosophy .boxed p {
+        padding: 0;
+        font-size: 17px;
+    }
+
+    #business-line {
+        height: 1840px;
+    }
+}
+
+@media only screen and (max-width: 1022px) {
+    #social {
+        padding: 0;
+    }
+
+    ul#social li {
+        margin-left: 0 !important;
+    }
+
+    #lower-footer .one_half {
+        padding: 0 10% 25px 10%;
+    }
+
+    #business-line-parallax-image {
+        height: 100% !important;
+        position: absolute;
+        left: -50%;
+    }
+
+    #philosophy .boxed p {
+        padding: 0;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    #image-header .image-content .boxed {
+        padding: 0;
+        margin-top: 125px;
+        text-align: center;
+    }
+
+    #philosophy .image-content {
+        margin: 60px 0;
+    }
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1023px) {
+    #business-line {
+        height: 780px;
+    }
+
+    #philosophy {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 767px) {
+    #business-line {
+        height: 1440px;
+    }
+
+    #philosophy {
+        height: 300px;
+    }
+}
+
 .swiper-container,
 a.arrow-left,
 a.arrow-right,
 #video-header,
-#image-header,
 #folio ul li figcaption,
 #filters,
 .woocommerce-ordering select
@@ -119,16 +200,6 @@ a.arrow-right,
     table.cart thead
     {
         display: none;
-    }
-    
-    #content
-    {
-        padding: 125px 0 75px 0!important;
-    }
-    
-    body.hasHeader #content
-    {
-        padding: 150px 0 75px 0!important;
     }
 }
 /**
@@ -270,7 +341,7 @@ a.arrow-right,
     
     .boxed
     {
-        width: 700px;
+        width: 500px;
     }
 
     .services-boxed
