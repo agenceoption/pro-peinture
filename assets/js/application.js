@@ -33,7 +33,7 @@
 	{
 	    $('#primary').css({
 	        background : '#19274c',
-            padding    : '15px 0'
+            padding    : '10px 0'
         });
 	}
 	else
@@ -64,7 +64,8 @@
         $w.scroll(function()
         {
             var scrollTop = $w.scrollTop();
-            var shouldBeFixed = scrollTop > navHomeY;
+//            var shouldBeFixed = scrollTop > navHomeY;
+            var shouldBeFixed = true;
 
             if ( shouldBeFixed && ! isFixed )
             {
@@ -80,8 +81,8 @@
                     paddingTop : '31px'
                 });
                 
-                $( '#navwrap' ).removeClass( 'wrapper' );
-                $( '#navwrap' ).addClass( 'boxed' );
+//                $( '#navwrap' ).removeClass( 'wrapper' );
+//                $( '#navwrap' ).addClass( 'boxed' );
 
                 isFixed = true;
             }

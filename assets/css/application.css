@@ -449,9 +449,9 @@ a:active
 
 #primary
 {
-    background: #323a45;
+    background: #19274c;
+    padding: 10px 0;
     width: 100%;
-    padding: 30px 0;
     float: left;
     position: fixed;
     z-index: 999;
@@ -2363,7 +2363,7 @@ aside a
     padding: 35px 3%;
 }
 
-#advantage p strong {
+#advantage p {
     color: rgb(25, 39, 76);
 }
 
