@@ -2299,6 +2299,7 @@ aside a
 
 #image-header img {
     opacity: 0.95;
+    max-height: 800px;
 }
 
 #image-header .image-content .boxed{

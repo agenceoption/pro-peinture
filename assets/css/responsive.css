@@ -39,24 +39,17 @@
     }
 
     img#business-line-parallax-image {
-        width: auto;
-        height: 80%;
-        min-height: 80%;
-        position: absolute;
-        left: -500px;
+        left: -700px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     img#business-line-parallax-image {
-        width: auto;
-        height: 100%;
-        position: absolute;
         left: -500px;
     }
 }
 
-@media only screen and (max-width: 1022px) {
+@media only screen and (max-width: 1023px) {
     #social {
         padding: 0;
     }
@@ -69,9 +62,19 @@
         padding: 0 10% 25px 10%;
     }
 
+    #lower-footer .one_half:last-child {
+        padding: 0 0 25px 0;
+    }
+
     #philosophy .boxed p {
         padding: 0;
         font-size: 17px;
+    }
+
+    img#business-line-parallax-image {
+        width: auto;
+        height: 100%;
+        position: absolute;
     }
 }
 
