@@ -2329,6 +2329,7 @@ aside a
 
 #business-line p {
     text-align: justify;
+    color: rgb(25, 39, 76);
 }
 
 #business-line img {
@@ -2337,10 +2338,10 @@ aside a
 }
 
 #business-line h4, #business-line h2, #business-line h3 {
-    color: white;
+    color: rgb(25, 39, 76);
 }
 #business-line h2:after {
-    background-color: white;
+    color: rgb(25, 39, 76);
 }
 
 #business-line .image-content{
