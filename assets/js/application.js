@@ -80,7 +80,8 @@
                 drop.css({
                     paddingTop : '31px'
                 });
-                
+
+                $('#rbq').addClass('hidden');
                 $( '#navwrap' ).removeClass( 'wrapper' );
                 $( '#navwrap' ).addClass( 'boxed' );
 
@@ -111,7 +112,10 @@
                     paddingTop : '46px'
                 });
 
-                $( '#navwrap' ).removeClass( 'boxed' );
+				window.setTimeout(function() {
+					$('#rbq').removeClass('hidden');
+				}, 300);
+				$( '#navwrap' ).removeClass( 'boxed' );
                 $( '#navwrap' ).addClass( 'wrapper' );
 
                 isFixed = false;
