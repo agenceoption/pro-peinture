@@ -14,7 +14,7 @@
     font-size : 10px;
 }
 .erratum p {
-    font-size : 10px;
+    font-size : 10px!important;
 }
 
 @media only screen and (min-width: 1279px){
