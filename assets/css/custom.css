@@ -6,3 +6,17 @@
     /*font-weight: 100;*/
     top: 60px;
 }
+
+.erratum {
+    width :700px;
+    margin: 0 auto;
+}
+.erratum p {
+    font-size : 10px;
+}
+
+@media only screen and (min-width: 1279px){
+    .image-content {
+        margin-top: 15%;
+    }
+}
