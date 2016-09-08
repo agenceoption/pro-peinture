@@ -16,7 +16,12 @@
 .erratum p {
     font-size : 14px!important;
     line-height: 18px;
+    margin :0;
+    font-weight :light;
 }
+ .erratum .titre {
+     margin-bottom :10px;
+ }
 
 @media only screen and (min-width: 1279px){
     .image-content {
